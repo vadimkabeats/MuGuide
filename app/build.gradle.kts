@@ -41,6 +41,19 @@ android {
 }
 
 dependencies {
+    // Compose UI
+    implementation ("androidx.compose.ui:ui:1.4.3")
+    implementation ("androidx.compose.ui:ui-tooling-preview:1.4.3")
+    debugImplementation ("androidx.compose.ui:ui-tooling:1.4.3")
+
+// Material (включая Button, Text и др.)
+    implementation ("androidx.compose.material:material:1.4.3")
+
+// Activity-Compose (для setContent)
+    implementation ("androidx.activity:activity-compose:1.7.1")
+
+// Navigation-Compose
+    implementation ("androidx.navigation:navigation-compose:2.5.3")
         // Core и UI
         implementation ("androidx.core:core-ktx:1.10.1")
         implementation ("androidx.appcompat:appcompat:1.6.1")
